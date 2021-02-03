@@ -7,11 +7,11 @@ pipeline {
 
     agent any
     stages {
-            stage('Cloning our Git') {
-                steps {
-                git 'git@github.com:narendrasalana/node-app-server.git'
-                }
-            }
+            // stage('Cloning our Git') {
+            //     steps {
+            //     git 'git@github.com:narendrasalana/node-app-server.git'
+            //     }
+            // }
 
             stage('Building Docker Image') {
                 steps {
